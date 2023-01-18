@@ -2,7 +2,7 @@
   "name": "chat",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://spaceee123.github.io/spaceee123.github.io",
+  "homepage": "https://spaceee123/spaceee123.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
