@@ -1,0 +1,27 @@
+.btn{
+    background: none;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+}
+.btn:hover{
+    background:none;
+}
+.active{
+    background:orange;
+}
+.btn-primary{
+    --bs-btn-active-bg: rgba(109, 107, 108, 0.8);
+}
+.offcanvas{
+    background-color:rgba(17, 16, 23, 1);
+    color: white;
+    --bs-offcanvas-border-width: 0px;
+    --bs-offcanvas-width: 315px;
+}
+.LogOutBtn{
+    padding: 10px;
+    color: white;
+    background-color: #2a2c32;
+    border: none;
+}

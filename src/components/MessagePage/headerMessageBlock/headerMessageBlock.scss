@@ -1,0 +1,19 @@
+.MessageHeader_container{
+  background: #202020 ;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  user-select: none;
+  .MessageHeader_LeftSide{
+  margin-left: 15px;
+  }
+  .MessageHeader_RightSide{
+    img{
+    margin: 15px;
+      cursor: pointer;
+    }
+  }
+
+}

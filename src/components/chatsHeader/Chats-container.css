@@ -1,0 +1,73 @@
+.search_header{
+    color: white;
+    padding: 10px;
+    width: 40vh;
+    background-color: var(--hover-btn-color);
+    border:none;
+    position: relative;
+    margin-right: 10px;
+}
+.header_components{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.chats_container{
+    background-color: #202020;
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #2a2c32;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+input {outline:none;}
+.resizeable{
+    position: sticky;
+    width: 35%;
+    max-width: 45%;
+    min-width: 27%;
+    height: 100%;
+}
+.resizer{
+    position: absolute;
+    background: none;
+
+}
+.resizer-r{
+    cursor: col-resize;
+    height: 100%;
+    right: 0;
+    top:0;
+    width: 3px;
+}
+.test{
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.chats_container_scroll{
+
+    max-height: 100vh;
+}
